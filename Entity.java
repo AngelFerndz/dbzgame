@@ -1,4 +1,4 @@
-package javaapp;
+package dbzgame;
 
 import java.util.Random;
 

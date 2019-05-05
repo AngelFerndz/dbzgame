@@ -2,7 +2,8 @@ package dbzgame;
 
 import java.util.Random;
 
-public class Entity{
+/* Angel Fernandez */
+public class Entity {
 
     public int level = 1;
     public int exp = 100;

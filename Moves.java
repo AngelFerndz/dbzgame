@@ -2,15 +2,16 @@ package dbzgame;
 
 import java.util.Random;
 
+/* Angel Fernandez */
 public class Moves {
-    
+
     public static void punch(Entity A, Entity B) {
         Random rand = new Random();
         int i = rand.nextInt(3) + 1;
         double power = A.str * 1.1;
         Arena.output += A.name + " Threw a Punch \n";
         if (i == 1) {
-             
+
             Arena.output += B.name + " Blocked Punch!\n";
         } else {
             B.Damage(power);
@@ -29,10 +30,10 @@ public class Moves {
             Arena.output += B.name + " Blocked Kick!\n";
         } else {
             B.Damage(power);
-            
+
         }
     }
-    
+
     public static void Kamehameha(Entity A, Entity B) {
         Random rand = new Random();
         int i = rand.nextInt(5) + 1;
@@ -60,7 +61,7 @@ public class Moves {
             B.Damage(power);
         }
     }
-    
+
     public static void SpiritBomb(Entity A, Entity B) {
         Random rand = new Random();
         int i = rand.nextInt(20) + 1;

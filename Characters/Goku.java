@@ -1,12 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package javaapp.Characters;
+package dbzgame.Characters;
 
-import javaapp.Entity;
+import dbzgame.Entity;
 
+/* Angel Fernandez */
 public class Goku extends Entity {
 
     public Goku() {

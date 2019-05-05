@@ -1,5 +1,6 @@
 package dbzgame;
 
+/* Angel Fernandez */
 public class Arena extends Moves {
 
     public static Entity p1;
@@ -20,10 +21,10 @@ public class Arena extends Moves {
                 selectAttack(p1, p2);
                 if (p2.life > 0) {
                     selectAttack(p2, p1);
-                    if(i == 3){
+                    if (i == 3) {
                         p1.stamina = 3;
                         p2.stamina = 3;
-                    }else if(i == 5){
+                    } else if (i == 5) {
                         p1.stamina = 4;
                         p2.stamina = 4;
                     }
